@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var car_component_1 = require("./car.component");
 var product_component_1 = require("./products/product.component");
+var order_component_1 = require("./orders/order.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -22,7 +23,8 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 app_component_1.AppComponent,
                 car_component_1.CarComponent,
-                product_component_1.ProductListComponent
+                product_component_1.ProductListComponent,
+                order_component_1.OrderListComponent
             ],
             bootstrap: [app_component_1.AppComponent],
             providers: []

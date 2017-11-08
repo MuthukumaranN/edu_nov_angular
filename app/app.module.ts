@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component'
 import { CarComponent } from './car.component';
 import { ProductListComponent } from './products/product.component';
+import { OrderListComponent } from './orders/order.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,8 @@ import { ProductListComponent } from './products/product.component';
   declarations: [
     AppComponent,
     CarComponent,
-    ProductListComponent
+    ProductListComponent,
+    OrderListComponent
   ],
   bootstrap: [ AppComponent ],
   providers:[]
